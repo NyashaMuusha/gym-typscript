@@ -9,22 +9,20 @@ const Footer = (props: Props) => {
         <div className="mt-16 basis-1/2 md:mt-0">
           <img alt="logo" src={Logo} />
           <p className="my-5">
-            tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrum exercitationem ullam corporis suscipit
-            laboriosam
+            We are dedicated to putting your fitness needs first
           </p>
           <p>@ Evogym All Rights Reserved</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5"> Massa orci senectue</p>
-          <p className="my-5"> Et gravida id det etiam</p>
-          <p>Ullamcorper viamus</p>
+          <p className="my-5"> Twitter </p>
+          <p className="my-5"> On instagram</p>
+          <p>On facebook</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Tempus metus mattis risus volutpat</p>
-          <p>(333)425-6825</p>
+          <p className="my-5">We would to hear from you</p>
+          <p>+277 700 800</p>
         </div>
       </div>
     </footer>

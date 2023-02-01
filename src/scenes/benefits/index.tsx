@@ -30,13 +30,13 @@ const benefits: Array<BenefitType> = [
     icon: <UserGroupIcon className="h-6 w-6 " />,
     title: "100s of Diverse Classes",
     description:
-      "From high-intensity cardio to relaxing yoga, there is something for everyone.You will be able to challenge yourself and achieve your fitness goals in a supportive and inclusive environment",
+      "From high-intensity cardio to relaxing yoga, there is something for everyone.You will be able to achieve your fitness goals in a supportive and inclusive environment",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6 " />,
     title: "Expert and Pro Trainers",
     description:
-      "Our gym is staffed by expert and professional trainers. With a wealth of knowledge and experience, they will provide you with personalized attention, guidance, and support to ensure that you get the most out of every workout",
+      "Our gym is staffed by expert and professional trainers.They will provide you with personalized attention, guidance, and support to ensure that you get the most out of every workout",
   },
 ];
 
