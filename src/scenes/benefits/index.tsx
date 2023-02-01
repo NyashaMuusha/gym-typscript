@@ -8,7 +8,7 @@ import {
 import { motion } from "framer-motion";
 import Benefit from "./Benefit";
 import ActionButton from "@/shared/ActionButton";
-import BenefitPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import BenefitsPageGraphic2 from "@/assets/BenefitsPageGraphic2.png";
 const container = {
   hidden: {},
   visible: {
@@ -24,19 +24,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6 " />,
     title: "State of the Art Facilities",
     description:
-      " aut consequatur tempora sed omnis veritatis et totam autem. Et architecto facilis eos praesentium rerum qui cumque debitis sit voluptas excepturi.",
+      "Experience the ultimate workout with our cutting-edge equipment and amenities, including virtual training programs and personal training services.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6 " />,
     title: "100s of Diverse Classes",
     description:
-      " aut consequatur tempora sed omnis veritatis et totam autem. Et architecto facilis eos praesentium rerum qui cumque debitis sit voluptas excepturi.",
+      "From high-intensity cardio to relaxing yoga, there is something for everyone.You will be able to challenge yourself and achieve your fitness goals in a supportive and inclusive environment",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6 " />,
     title: "Expert and Pro Trainers",
     description:
-      " aut consequatur tempora sed omnis veritatis et totam autem. Et architecto facilis eos praesentium rerum qui cumque debitis sit voluptas excepturi.",
+      "Our gym is staffed by expert and professional trainers. With a wealth of knowledge and experience, they will provide you with personalized attention, guidance, and support to ensure that you get the most out of every workout",
   },
 ];
 
@@ -86,9 +86,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
           {/* GRAPHIC */}
           <img
-            className="mx-auto "
+            className="mx-auto w-1/2 rounded-md"
             alt="benefits-page-graphic"
-            src={BenefitPageGraphic}
+            src={BenefitsPageGraphic2}
           />
           {/* DESCRIPTION */}
           <div>
@@ -124,16 +124,17 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Quis aute iure reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
-                cupiditat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laboru
+                At our gym, we are proud to have helped millions of happy
+                members achieve their fitness goals. Our supportive community
+                and commitment to excellence make us the go-to destination for
+                anyone looking to get fit and lead a healthier, happier life.
               </p>
               <p className="mb-5">
-                Quis aute iure reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
-                cupiditat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laboru
+                With a wide range of classes, state-of-the-art facilities, and
+                expert trainers, our members have access to everything they need
+                to reach their fitness goals. And with a welcoming and inclusive
+                atmosphere, everyone feels comfortable and motivated to achieve
+                their best.
               </p>
             </motion.div>
             {/* BUTTON */}
